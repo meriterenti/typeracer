@@ -25,7 +25,6 @@ const App = () => {
   };
 
   const countWPM = () => {
-    debugger;
     const wpm = Math.floor(rightText.length / 15);
     setwpm(wpm);
   };
